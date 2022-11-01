@@ -1,0 +1,532 @@
+/* Media Query For display 1200px */
+@media only screen and (max-width:1200px){
+    .pricing-center .circle{
+        width: 100%;
+    }    
+}
+/* Media Query For display 1200px */
+
+/* Media Query For display 900px */
+@media only screen and (max-width:950px) {
+
+    .main-menu a{
+        font-size: 0.8rem;
+    }
+    .moov-top span{
+        left: 92%;
+    }
+    header .right{
+        font-size: 0.8rem;
+        margin-top: 32px;
+    }
+    .about .left, .about .right{
+        width: 40%;
+    }
+    .about .left h3, .about .right h3{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .about .left p, .about .right p{
+        font-weight: 100;
+        font-size: 0.8rem;
+        padding: 0 20px;
+        line-height: 30px;
+    }
+    .about .mybutton{
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+    .statistic .two-section{
+        display: block;
+    }
+    .two-section .left{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .two-section .right{
+        width: 60%;
+        margin: 60px auto;
+    }
+    .features .two-part{
+        display: block;
+        margin-top: -110px;
+
+    }
+    .features .two-part .left{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .features .two-part .left p{
+        padding-top: 50px;
+        margin-left: 0;
+    }
+    .features .two-part .left h1{
+        margin-left: 0;
+    }
+    .features .two-part .left h1 span{
+        display: inline;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    .features .two-part .left .blue{
+        margin-bottom: 110px;
+        margin-left: 0;
+    }
+    .features .two-part .right{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .features .two-part .right img{
+        margin-bottom: -5px;
+    }
+    .discount .center{
+        display: block;
+    }
+    .discount .center .left{
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+    .discount .center .left img{
+        width: 100%;
+    }
+    .discount .center .right{
+        width: 100%;
+    }
+    .pricing .pricing-center{
+        display: block;
+        
+    }
+    .pricing-center .one,.pricing-center .two,.pricing-center .three{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .pricing-center .circle{
+        width: 80%;
+    }
+    .blog .blog-center{
+        width: 75%;
+    }
+    .blog-center .one,.blog-center .two,.blog-center .three{
+        width: 48%;
+        margin-bottom: 50px;
+    }
+    .contact .contact-center{
+        display: block;
+    }   
+    .contact .contact-center .left, .contact .contact-center .right{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        padding-bottom: 40px;
+    }
+    .contact-center .left p{
+        font-size: 1rem;
+    }
+    .contact-center .right form input{
+        border-bottom: 1px solid gray;
+    }
+    .contact-center .right form textarea{
+        border-bottom: 1px solid gray;
+    }
+    .socal-icon .socal-icon-center .fa{
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    footer .footer-center{
+        display: block;
+    }
+    footer .part-one{
+        margin-bottom: 20px;
+    }
+    footer .part-two{
+        width: 100%;
+    }
+    footer .part-two .one,footer .part-two .two,footer .part-two .three,footer .part-two .four{
+        width: 45%;
+        margin-left: 10px;
+    }
+}
+/* Media Query For display 900px */
+
+/* Media Query For display 830px */
+@media only screen and (max-width:830px){
+    
+    .moov-top span{
+        left: 91.5%;
+    }
+    header .toggle_btn{
+        position: absolute;
+        top: 40px;
+        left: 48%;
+        color: #000;
+        background-color: #fff;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        border-radius: 5px;
+    }
+   
+    header .toggle_btn:hover{
+        background-color: #007bff;
+        color: #fff;
+    }
+    .main-menu{
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top:40px;
+        right: 0;        
+        padding: 0;
+
+    }
+    .main-menu li{
+        padding-bottom: 5px;
+        text-align: center;
+        width: 100%;
+        display: block;
+        background-color: #4d4d4d;
+    }
+    .main-menu a{
+        margin-left: 55px;
+    }
+    .main-menu ul{
+        margin-top: 0px;
+        background-color: transparent;
+        padding: 0;
+        border-radius: none;
+        line-height: 5px;
+        position: relative;
+        top:10px;
+        left: 0;
+
+    }
+    .main-menu ul li:hover{
+        background-color: transparent;
+    }
+    .main-menu ul li{
+        text-align: center;
+        padding-bottom: 25px;
+
+    }
+    .main-menu ul a{
+        margin-left: 50px;
+
+    }
+    .main-menu ul{
+        width: 100%;
+    }
+    .main-menu li{
+        text-align: center;
+        padding: 5px 0px;
+    }
+    .main-menu ul li{
+        padding-left: 0;
+    }
+}
+/* Media Query For display 830px */
+
+
+/* Media Query For display 768px */
+@media only screen and (max-width:768px){
+
+    
+
+    .text-area h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .text-area h5{
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-top: -10px;
+    }
+    
+    .main-menu{
+        flex-direction: column;
+    }
+    .main-menu .active{
+        display: flex;
+    }
+    .main-menu 
+    .pricing-center .one,.pricing-center .two,.pricing-center .three{
+        width: 65%;
+    }
+    .pricing-center .circle{
+        width: 75%;
+    }
+    .gallery .gallery-center{
+        display: block;
+    }
+    .gallery .gallery-center .part-one,.gallery .gallery-center .part-two,.gallery .gallery-center .part-three{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .gallery-center .img1,.img2,.img3{
+        padding-bottom: 15px;
+    }
+}
+/* Media Query For display 768px */
+
+/* Media Query For display 520px */
+@media only screen and (max-width:520px){
+   header{
+    display: block;
+   }
+   .brand{
+    margin-left: 20px;
+   }
+   header .toggle_btn{
+    margin-left: 170px;
+   }
+   header .right{
+    text-align: center;
+   }
+   .moov-top span{
+    left: 88%;
+   }
+   
+    .text-area h1{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .about h1{
+        font-size: 1.5rem;
+        margin-top: -80px;
+    }
+    .about .para{
+        font-size: 0.8rem;
+        letter-spacing: 2.5px;
+        margin-top: -10px;
+    }
+    .about .center{
+        width: 90%;
+    }
+    .about .left, .about .right{
+        width: 100%;
+    }
+    .statistic h1{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .statistic .para{
+        font-size: 0.7rem;
+    }
+    .statistic .two-section{
+        width: 90%; 
+    }
+    .two-section .left{
+        width: 90%;
+        
+    }
+    .two-section .right{
+        width: 100%;
+        padding-right:0;
+        padding-left: 20px;
+    }
+    
+    .two-section .right h2{
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    .two-section .right p{
+        font-weight: 100;
+        font-size: 0.7rem;
+    }
+    .features #features-title{
+        font-size: 1.5rem;
+    }
+    .features h4{
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    .features .two-part{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .features .two-part .left{
+        width: 90%;
+    }
+    .features .two-part .left p{
+        font-size: 0.7rem;
+    }
+    .features .two-part .left h1{
+        line-height: 30px;
+        font-size: 0.8rem;
+        font-weight: 100
+    }
+    .features .two-part .right{
+        width: 90%;
+    }
+    .discount .center{
+        width: 90%;
+    }
+    .discount .center .right h1{
+        font-size: 1.5rem;
+
+    }
+
+    .discount .center .left{
+        width: 100%;
+    }
+    .discount .center .right{
+        width: 100%;
+    }
+    .discount .center .right h4{
+        font-size: 1rem;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 60px;
+    }
+    .discount .center .right h2{
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    .discount .center .right p{
+        font-size: 0.7rem;
+        font-weight: 100;
+    }
+    .pricing .pricing-center{
+        width: 90%;
+    }
+    .pricing .pricing-title{
+        font-size: 1.5rem;
+    }
+    .pricing h3{
+        font-size: 0.8rem;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+    .pricing-center .one,.pricing-center .two,.pricing-center .three{
+        width: 100%;
+    }
+    .pricing-center .circle{
+        width: 80%;
+        border-radius: 170px;      
+    }
+    .blog .blog-h1{
+        font-size: 1.5rem;
+    }
+    .blog .blog-h5{
+        font-size: 0.9rem;
+    }
+    .blog .blog-center{
+        width: 90%;
+        display: block;
+    }
+    .blog-center .one,.blog-center .two,.blog-center .three{
+        width: 100%;
+    }
+    .gallery .gallery-h1{
+        font-size: 1.5rem;
+    }
+    .gallery .gallery-h4{
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+        margin-top: 30px;
+    }
+    .gallery .gallery-center{
+        width: 90%;
+    }
+    .gallery .gallery-center .part-one,.gallery .gallery-center .part-two,.gallery .gallery-center .part-three{
+        width: 100%;
+    }
+    .contact .contact-h1{
+        font-size: 1.5rem;
+    }
+    .contact .contact-h4{
+        font-size: 0.8rem;
+        letter-spacing: 4px;
+        margin-top: 30px;
+    }
+    .contact .contact-center{
+        width: 90%;
+    }
+    .contact .contact-center .left{
+        width: 90%;
+    }
+    .contact-center .left h1{
+        font-size: 1rem;
+    }
+    .contact-center .left p{
+        font-size: 0.7rem;
+    }
+    .socal-icon h1{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .socal-icon hr{
+        width: 15%;
+    }
+    .socal-icon .socal-icon-center{
+        width: 90%;
+    }
+    .socal-icon .socal-icon-center .fa{
+        font-size: 35px;
+    }
+    footer .footer-center{
+        width: 90%;
+    }
+    footer .part-two{
+        width: 100%;
+    }
+    footer  h1{
+        font-size: 1rem;
+    }
+    footer a{
+        font-size: 0.7rem;
+    }
+    footer .footer-bottom p{
+        font-size: 0.6rem;
+        letter-spacing: 2px;
+    }
+}
+/* Media Query For display 520px */
+
+/* Media Query For display 425px */
+@media only screen and (max-width:425px){
+    .moov-top span{
+        left: 83%;
+       }
+    .brand{
+        margin-left: 20px;
+       }
+       header .toggle_btn{
+        padding: 8px;
+        margin-left: 120px;
+        font-size: 0.9rem;
+        margin-top: -8px;
+       }
+       header .right{
+        margin-left: 50px;
+       }
+}
+/* Media Query For display 425px */
+
+/* Media Query For display 320px */
+@media only screen and (max-width:320px){
+    .brand{
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: -4px;
+    }
+    header .toggle_btn{
+        
+        margin-left: 80px;
+        font-size: 0.9rem;
+        margin-top: -16px;
+       }
+    .text-area h1{
+        font-size: 1.2rem;
+    }
+    .text-area h5{
+        letter-spacing: 3px;
+    }
+
+    footer .part-two{
+        display: block;
+    }
+}
+/* Media Query For display 320px */
+
