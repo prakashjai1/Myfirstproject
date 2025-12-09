@@ -326,7 +326,7 @@ header .right{
 .discount .center .right h4{
     font-size: 1.2rem;
     font-weight: 300;
-    margin-top: 4px;
+    margin-top: 4px !important;
 }
 .discount .center .right h2{
     font-size: 1.4rem;
